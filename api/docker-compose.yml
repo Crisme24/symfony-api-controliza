@@ -41,7 +41,7 @@ services:
     container_name: phpmyadmin
     image: phpmyadmin/phpmyadmin
     environment:
-        - PMA_HOST: symfony-api-controliza-db
+        PMA_HOST: symfony-api-controliza-db
     restart: always
     ports:
         - 9080:80
